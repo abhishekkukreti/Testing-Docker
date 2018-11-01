@@ -1,4 +1,4 @@
-Pipeline{
+Pipeline {
   agent {
   docker { image 'node:7-alpine' }
   }
