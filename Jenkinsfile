@@ -12,7 +12,7 @@
 }
 */
 
-//Scripted//
+//Scripted //
 node {
   docker.image('node:7-alpine').inside {
     stage('Check') {
