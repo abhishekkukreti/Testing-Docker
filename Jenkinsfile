@@ -11,19 +11,20 @@
   }
 }
 
-
+*/
 //Scripted //
 node {
+  checkout scm
   docker.image('node:7-alpine').inside {
     stage('Check') {
      sh 'node --version' 
     }
   }
 }
-*/
 
 
-pipeline {
+
+/*pipeline {
  agent none
   
   stages {
@@ -47,3 +48,4 @@ pipeline {
     }
     }
   }
+*/
