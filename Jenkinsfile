@@ -42,6 +42,7 @@ pipeline {
        }
       steps {
        sh 'node --version' 
+        sh 'hostname'
       }
     }
     }
