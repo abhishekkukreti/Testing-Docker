@@ -24,7 +24,7 @@ node {
 
 
 pipeline {
- agent node
+ agent none
   
   stages {
     stage('front-end'){
