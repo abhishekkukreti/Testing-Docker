@@ -18,8 +18,7 @@ node {
   docker.image('node:7-alpine').inside {
     stage('Check') {
      sh 'node --version' 
-      sh 'make check'
-    }
+          }
   }
 }
 
