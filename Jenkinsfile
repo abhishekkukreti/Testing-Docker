@@ -33,6 +33,7 @@ pipeline {
       }
           steps {
             sh 'mvn --version' 
+            sh 'hostname'
           }
       }
     
