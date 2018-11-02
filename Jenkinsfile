@@ -33,8 +33,7 @@ pipeline {
       }
           steps {
             sh 'mvn --version' 
-            sh 'hostname'
-          }
+                    }
       }
     
     stage('Back-end'){
